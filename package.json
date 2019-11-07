@@ -1,0 +1,23 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "HW 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waterylime/Profile-Generator.git"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "body-parser": ""
+  },
+  "author": "snl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waterylime/Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/waterylime/Profile-Generator#readme"
+}
