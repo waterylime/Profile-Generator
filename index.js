@@ -15,10 +15,15 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 //index route
 app.get('/', (req, res) =>{
-res.send('Hello World')
+// res.send('Hello World')
+res.sendFile('index.html');
 });
+
+const pdfRoute = require('./routes/pdfmake');
+app.use('/pdfMake', pdfRoute);
+
 
 
 app.listen(port, () =>{
-    console.log('server running at http://localhost:$(port)/');
-})
+    console.log(`server running at http://localhost:${port}/`);
+});

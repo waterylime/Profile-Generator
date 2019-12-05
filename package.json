@@ -11,8 +11,15 @@
     "url": "git+https://github.com/waterylime/Profile-Generator.git"
   },
   "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "",
+    "create": "0.0.2",
+    "create-html": "^4.1.0",
     "express": "4.17.1",
-    "body-parser": ""
+    "fs": "0.0.1-security",
+    "html": "^1.0.0",
+    "inquirer": "^7.0.0",
+    "pdfmake": "^0.1.62"
   },
   "author": "snl",
   "license": "ISC",
